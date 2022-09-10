@@ -1,0 +1,53 @@
+.AboutHome {
+  position: relative;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.about-title {
+  color: #f04f26;
+}
+#about-heading {
+  font-weight: 900;
+  line-height: 50px;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: justify;
+  letter-spacing: 0.6px;
+}
+.common-style-paragraph {
+  color: rgb(56, 55, 55);
+  margin: 20px 0px;
+  font-size: 20px;
+}
+
+.common-heading-style {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+}
+
+.highlight {
+  color: #f04f26;
+  margin-right: 15px;
+}
+.image-circle {
+  width: 80%;
+  height: 80%;
+  border-radius: 30%;
+  border-top: 2px dashed #f33101;
+  border-right: 2px dashed #f04f26;
+  border-left: 2px dashed #051b7a;
+  border-bottom: 2px dashed #051b7a;
+  padding: 10px;
+  animation: spin 10s infinite linear;
+}
+.image-circle img {
+  animation: spin 10s infinite reverse linear;
+  border-radius: 50px;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(1turn);
+  }
+}

@@ -1,0 +1,91 @@
+.service-section {
+  position: relative;
+  overflow: hidden;
+}
+.our-services-header {
+  margin: 0 auto;
+  text-align: center;
+}
+.our-services-header span {
+  font-size: 16px;
+  color: #f04f26;
+}
+.our-services-header p {
+  margin: 0 auto;
+  font-size: 35px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 900;
+  width: 55%;
+  text-align: center;
+}
+
+.our-services {
+  background: rgb(253, 249, 249);
+  width: 200px;
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+}
+.our-services-content {
+  padding: 20px;
+  margin-top: 20px;
+}
+.our-services-content h4 {
+  font-family: "Rajdhani";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 50px;
+}
+.our-services-content span {
+  color: #f04f26;
+  font-size: 15px;
+}
+.our-services-content p {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.slick-slider {
+  margin: 0 15px;
+  display: block;
+  height: 400px;
+}
+.slick-slide {
+  margin: 10px;
+  text-align: center;
+}
+
+.overlay {
+  /* position: absolute;
+  transition: 0.5s ease;
+  width: 268px;
+  height: 300px;
+  top: 0;
+  left: 0px;
+  background-color: #f04f26;
+  opacity: 0; */
+}
+
+.our-services:hover {
+  background-color: #f04f26;
+  color: white;
+  transition: 0.3s ease-in;
+  transform: rotate(90);
+}
+
+.our-services:hover,
+.overlay {
+  opacity: 1;
+}
+.service-section .slick-prev {
+  display: none !important;
+}
+.service-section .slick-next {
+  display: none !important;
+}
+
+.service-section .slick-prev:hover,
+.slick-next:hover {
+  display: none;
+}

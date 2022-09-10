@@ -1,0 +1,45 @@
+.navigation {
+  background-color: transparent;
+}
+
+.dropdown-toggle::after {
+  display: none, im !important;
+}
+
+.buttons {
+  background-color: #f04f26;
+  padding: 10px 20px;
+  border-radius: 5px 15px 5px 15px;
+  border: none;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.buttons:hover {
+  background-color: #051b7a;
+  transition: 0.3s ease-in-out;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-weight: 600;
+  font-size: 14px;
+  margin: 10px 3px 0px 3px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #07181f;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.dropdown-menu {
+  border: none !important;
+}
