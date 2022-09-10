@@ -3,6 +3,10 @@
   width: 100%;
   height: 100vh;
 }
+.hero-section .container {
+  background: linear-gradient(to #f8d9d1, right blue);
+  border-radius: 5px;
+}
 .hero-content {
   position: relative;
   top: 30%;

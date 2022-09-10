@@ -1,0 +1,10 @@
+.mission {
+  background: var(--primary-color);
+  padding: 15px;
+  border-radius: 5px;
+}
+.mission p {
+  text-align: justify;
+  color: white;
+  font-weight: 600;
+}

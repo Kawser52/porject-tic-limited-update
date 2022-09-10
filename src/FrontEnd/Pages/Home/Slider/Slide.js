@@ -3,7 +3,7 @@ import './Slide.css';
 const Slide = () => {
     return (
         <div className='hero-section'>
-            <div className="container">
+            <div className="container ">
                 <div className="row">
                     <div className="col-md-6 col-lg-6">
                         <div className="hero-content">
