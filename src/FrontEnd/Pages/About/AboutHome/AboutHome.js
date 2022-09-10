@@ -26,19 +26,19 @@ const AboutHome = () => {
                             <p className='common-style-paragraph'>{aboutUs.description}</p>
                         </div>
                         <div className="row">
-                            <div className="col-md-6 mt-3">
+                            <div className="col-md-6 mt-3" data-aos="zoom-in-left" data-aos-duration="1000">
                                 <h5 className='common-heading-style'><FontAwesomeIcon icon={faCircleCheck} className="highlight" beatFade />Our Mission</h5>
                                 <p className='common-style-paragraph'>We stand here to move ahead in the highest way of success together.</p>
                             </div>
-                            <div className="col-md-6 mt-3">
+                            <div className="col-md-6 mt-3" data-aos="zoom-in-left" data-aos-duration="2000">
                                 <h5 className='common-heading-style'><FontAwesomeIcon icon={faCircleCheck} className="highlight" beatFade />Our Mission</h5>
                                 <p className='common-style-paragraph'>We stand here to move ahead in the highest way of success together.</p>
                             </div>
-                            <div className="col-md-6 mt-3">
+                            <div className="col-md-6 mt-3" data-aos="zoom-in-left" data-aos-duration="4000">
                                 <h5 className='common-heading-style'><FontAwesomeIcon icon={faCircleCheck} className="highlight" beatFade />Our Mission</h5>
                                 <p className='common-style-paragraph'>We stand here to move ahead in the highest way of success together.</p>
                             </div>
-                            <div className="col-md-6 mt-3">
+                            <div className="col-md-6 mt-3" data-aos="zoom-in-left" data-aos-duration="3000">
                                 <h5 className='common-heading-style'><FontAwesomeIcon icon={faCircleCheck} className="highlight" beatFade />Our Mission</h5>
                                 <p className='common-style-paragraph'>We stand here to move ahead in the highest way of success together.</p>
                             </div>

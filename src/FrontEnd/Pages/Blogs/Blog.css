@@ -1,5 +1,11 @@
 .blog-section .container {
-  background: linear-gradient(0.25turn, #6856ac, #ebf8e1, #f63c3c);
+  /* background: linear-gradient(
+    0.25turn,
+    var(--primary-color),
+    #ebf8e1,
+    var(--secondary-color)
+  ); */
+  background: rgb(247, 236, 236);
   padding: 20px;
   border-radius: 10px;
 }

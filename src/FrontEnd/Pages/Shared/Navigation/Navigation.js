@@ -10,7 +10,7 @@ const Navigation = () => {
     return (
         <div className='navigation'>
             <div class="container">
-        <nav class="navbar sticky-top fixed-bottom navbar-expand-lg">
+        <nav class="navbar navbar-fixed-top navbar-expand-lg">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img src={logo} class="img-fluid" width="200" alt=""/></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +29,7 @@ const Navigation = () => {
                       Course <FontAwesomeIcon icon={faPlus}></FontAwesomeIcon>
                     </Link>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Web Design</a></li>
+                      <li><Link to='/courseDetails' class="dropdown-item" href="#">Web Design</Link></li>
                       <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
                     </ul>
                   </li>

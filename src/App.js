@@ -5,6 +5,7 @@ import './App.css';
 import Login from './Backend/Login/Login';
 import AboutDetails from './FrontEnd/Pages/About/About Details/AboutDetails';
 import ContactUs from './FrontEnd/Pages/ContactUs/ContactUs';
+import CourseDetails from './FrontEnd/Pages/CourseDetails.js/CourseDetails';
 import DomainHosting from './FrontEnd/Pages/DomainHosting/DomainHosting';
 import Events from './FrontEnd/Pages/Events/Events';
 import Home from './FrontEnd/Pages/Home/Home';
@@ -28,6 +29,7 @@ function App() {
             <Route path='/event' element={<Events/>}/>
             <Route path='/contact' element={<ContactUs/>}/>
             <Route path='/login' element={<Login></Login>}/>
+            <Route path='/courseDetails' element={<CourseDetails></CourseDetails>}/>
           </Routes>
         <Footer></Footer>
       </BrowserRouter>

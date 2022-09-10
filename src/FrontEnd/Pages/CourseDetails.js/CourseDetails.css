@@ -1,0 +1,94 @@
+.course-cover-thumb {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.3rem;
+}
+.video {
+  bottom: 12px;
+  left: 30px;
+  position: absolute;
+  z-index: 1;
+  line-height: 40px;
+  padding: 0 12px;
+  background: rgba(2, 2, 2, 0.2);
+  border-radius: 0.3rem;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: var(--skillup-heading-font);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.course-details h4 {
+  font-size: 2rem;
+  line-height: 40px;
+}
+.description span {
+  margin-right: 10%;
+  font-size: 14px;
+}
+
+.description i {
+  margin-left: 5px;
+}
+.rating li {
+  margin: 0px 3px;
+  color: rgb(255, 219, 58);
+}
+.course-information {
+  background: rgb(252, 241, 241);
+  padding: 10px;
+  border-radius: 10px;
+}
+.rating .count-rating {
+  font-size: 15px;
+}
+
+.course-info .container {
+  border-radius: 5px;
+}
+.icon-st {
+  width: 50px;
+  height: 50px;
+  border: 1px dashed;
+  background: rgba(255, 87, 34, 0.11);
+  border-radius: 50%;
+}
+.icon-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.bg-st-g {
+  background: rgba(124, 191, 47, 0.12);
+  color: #7cbf2f;
+}
+
+.bg-halka {
+  background: rgba(144, 106, 212, 0.12);
+  color: #906ad4;
+}
+
+/* Start Course Description */
+
+.course-description {
+  margin: 60px 0px;
+}
+
+.course-det {
+  background: rgb(239, 239, 239);
+  padding: 40px;
+}
+.course-det p {
+  text-align: justify;
+}
+
+.course-det h6 {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
