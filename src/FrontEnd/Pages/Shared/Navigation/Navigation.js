@@ -33,7 +33,7 @@ const Navigation = () => {
                       <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
                     </ul>
                   </li>
-                  <li class="nav-item dropdown">
+                  {/* <li class="nav-item dropdown">
                   <Link to='/domainhosting' class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Domain & Hsoting <FontAwesomeIcon icon={faPlus} className=''></FontAwesomeIcon>
                     </Link>
@@ -41,12 +41,15 @@ const Navigation = () => {
                       <li><a class="dropdown-item" href="#">Web Design</a></li>
                       <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
                     </ul>
+                  </li> */}
+                   <li class="nav-item">
+                    <Link to='/domainhosting' class="nav-link" href="#">Domain & Hosting</Link>
                   </li>
                   <li class="nav-item">
                     <Link to='/projects' class="nav-link" href="#">Projects</Link>
                   </li>
                   <li class="nav-item">
-                    <Link to='/event' class="nav-link" href="#">Event</Link>
+                    <Link to='/eventdetails' class="nav-link" href="#">Event</Link>
                   </li>
                   <li class="nav-item">
                     <Link to='/contact' class="nav-link" href="#">Contact Us</Link>

@@ -7,6 +7,7 @@ import AboutDetails from './FrontEnd/Pages/About/About Details/AboutDetails';
 import ContactUs from './FrontEnd/Pages/ContactUs/ContactUs';
 import CourseDetails from './FrontEnd/Pages/CourseDetails.js/CourseDetails';
 import DomainHosting from './FrontEnd/Pages/DomainHosting/DomainHosting';
+import EventDetails from './FrontEnd/Pages/EventDetails/EventDetails';
 import Events from './FrontEnd/Pages/Events/Events';
 import Home from './FrontEnd/Pages/Home/Home';
 import Projects from './FrontEnd/Pages/Projects/Projects';
@@ -30,6 +31,7 @@ function App() {
             <Route path='/contact' element={<ContactUs/>}/>
             <Route path='/login' element={<Login></Login>}/>
             <Route path='/courseDetails' element={<CourseDetails></CourseDetails>}/>
+            <Route path='/eventdetails' element={<EventDetails></EventDetails>}/>
           </Routes>
         <Footer></Footer>
       </BrowserRouter>

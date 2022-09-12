@@ -1,4 +1,4 @@
-import { faCalendar, faForward, faPlay, faStar, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faCalendar, faForward, faPlay, faStar, faUser, faVideo } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './CourseDetails.css';
@@ -39,6 +39,7 @@ const CourseDetails = () => {
                     </div>
                     <div className="col-md-3 mt-3">
                         <button className='d-block buttons'>Enroll Now</button>
+                        <p className='course-fee'>৳<span>8500</span></p>
                     </div>
                 </div>
             </div>
@@ -91,51 +92,91 @@ const CourseDetails = () => {
                             <h6>Course Overview</h6>
                             <p className='text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas minus nam corrupti alias repudiandae, fuga at, praesentium necessitatibus quidem vitae hic iusto. Officia alias at voluptatibus inventore laudantium sapiente doloribus temporibus nam aperiam dolores, excepturi dignissimos modi adipisci voluptates nostrum possimus <br /> quam distinctio ea, delectus asperiores nulla accusantium ut eligendi. Commodi quibusdam dolores aut, saepe corporis labore veritatis excepturi doloremque deserunt sed ad voluptatum fugit harum ab nesciunt expedita soluta assumenda quam porro, sapiente illo perspiciatis sunt unde rerum! Exercitationem voluptates doloremque fugit nobis impedit, nam ab, laborum quis natus illo id! Eveniet dolores fugit corporis earum dolorem quod perferendis unde, necessitatibus eos eligendi ut voluptatum porro dignissimos non facilis esse magni ullam omnis saepe rerum ipsum possimus similique. Autem hic saepe in, libero rerum minima sed odio excepturi labore. Aspernatur porro saepe natus odit necessitatibus debitis consequatur commodi eveniet rem suscipit minima maiores alias tempore beatae, sit laudantium totam illo facere repellendus, eaque quasi! Veniam deleniti tempora recusandae molestiae velit omnis at magnam ex odit suscipit autem tempore exercitationem sapiente libero, rerum dolorem nemo consequatur. Dolor, provident officiis est cupiditate praesentium odit accusamus voluptates eligendi neque. Magni repellendus autem quibusdam nesciunt, ratione a harum officiis vero modi quidem quas inventore pariatur beatae excepturi eveniet ea eos rerum tempore obcaecati consequuntur laborum iste repellat deserunt. Nesciunt impedit incidunt quam eum consequatur ratione sapiente ullam, perspiciatis autem quod facere deserunt, rerum voluptate aliquid a error ad cumque minima sequi hic molestiae, quia laudantium! Molestiae error,</p>
                         </div>
-                        <div className="course-video mt-5">
+                        <div className="row mt-5">
+                            <h6>Course Curriculam</h6>
+                            <div className="course-video">
                             <div class="accordion" id="accordionExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Accordion Item #1
+                                        <strong className='curriculam'>Curriculum First</strong>
                                     </button>
                                     </h2>
                                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                    </div>
+                                        <div class="accordion-body ">
+                                            <div className="single-item mb-3 d-flex justify-content-between" >
+                                                <a href=""><span>1.</span> <FontAwesomeIcon icon={faVideo} className='me-3'></FontAwesomeIcon>Lesson Software</a>
+                                            <div className='course-meta'>
+                                                <span className='me-3 min'>10 minutes</span>
+                                                <a href="">Priview</a>
+                                            </div>                                           
+                                            </div>
+                                            <div className="single-item d-flex justify-content-between" >
+                                                <a href=""><span>2.</span> <FontAwesomeIcon icon={faVideo} className='me-3'></FontAwesomeIcon>Lesson Software</a>
+                                            <div className='course-meta'>
+                                                <span className='me-3 min'>10 minutes</span>
+                                                <a href="">Priview</a>
+                                            </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Accordion Item #2
+                                        Curriculam Second
                                     </button>
                                     </h2>
                                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <div className="single-item mb-3 d-flex justify-content-between" >
+                                                <a href=""><span>1.</span> <FontAwesomeIcon icon={faVideo} className='me-3'></FontAwesomeIcon>Lesson Software</a>
+                                            <div className='course-meta'>
+                                                <span className='me-3 min'>10 minutes</span>
+                                                <a href="">Priview</a>
+                                            </div>                                           
+                                            </div>
+                                            <div className="single-item d-flex justify-content-between" >
+                                                <a href=""><span>2.</span> <FontAwesomeIcon icon={faVideo} className='me-3'></FontAwesomeIcon>Lesson Software</a>
+                                            <div className='course-meta'>
+                                                <span className='me-3 min'>10 minutes</span>
+                                                <a href="">Priview</a>
+                                            </div>
+                                            </div>
                                     </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingThree">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Accordion Item #3
+                                        Curriculam Three
                                     </button>
                                     </h2>
                                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <div className="single-item mb-3 d-flex justify-content-between" >
+                                                <a href=""><span>1.</span> <FontAwesomeIcon icon={faVideo} className='me-3'></FontAwesomeIcon>Lesson Software</a>
+                                            <div className='course-meta'>
+                                                <span className='me-3 min'>10 minutes</span>
+                                                <a href="">Priview</a>
+                                            </div>                                           
+                                            </div>
+                                            <div className="single-item d-flex justify-content-between" >
+                                                <a href=""><span>2.</span> <FontAwesomeIcon icon={faVideo} className='me-3'></FontAwesomeIcon>Lesson Software</a>
+                                            <div className='course-meta'>
+                                                <span className='me-3 min'>10 minutes</span>
+                                                <a href="">Priview</a>
+                                            </div>
+                                            </div>
                                     </div>
                                     </div>
                                 </div>
                                 </div>
                         </div>
+                        </div>
                     </div>
                     <div className="col-md-4">
-                        <iframe width="370" height="255" src="https://www.youtube.com/embed/7e90gBu4pas" title="Working at Envato" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <p>$55</p>
-                        <li></li>
+                        <iframe width="370" height="255" src="https://www.youtube.com/embed/7e90gBu4pas" title="Working at Envato" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
                     </div>
                 </div>
              </div>

@@ -1,0 +1,20 @@
+.project-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: "Rajdhani", sans-serif;
+  color: var(--primary-color);
+}
+.projects-btn {
+  background: var(--secondary-color);
+  padding: 3px 20px;
+  text-transform: uppercase;
+  float: right;
+  transition: 0.3s ease-in-out;
+}
+.projects-btn a {
+  color: #fff;
+  float: right;
+}
+.projects-btn:hover {
+  background-color: var(--primary-color);
+}
