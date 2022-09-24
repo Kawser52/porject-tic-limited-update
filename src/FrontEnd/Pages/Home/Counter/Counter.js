@@ -33,7 +33,7 @@ const Counter = () => {
                 <div className="row ">
                     {counterData.map((counter) => (
                          <div className="col-md-3 spaceing col-sm-6">
-                            <div className="st">
+                            <div className="st" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                                 <TrackVisibility once>
                                     <CounterData key={counter.id} counterItem = {counter}></CounterData>
                                 </TrackVisibility>

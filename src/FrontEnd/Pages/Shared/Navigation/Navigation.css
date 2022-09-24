@@ -1,11 +1,13 @@
 .navigation {
-  background-color: ;
-}
 
+}
+.sticky-top {
+  background: linear-gradient(to right, #12058a, rgb(105, 119, 224));
+  color: white;
+}
 .dropdown-toggle::after {
-  display: none, im !important;
+  display: none !important;
 }
-
 .buttons {
   background-color: #f04f26;
   padding: 10px 20px;
@@ -28,7 +30,7 @@
   text-align: center;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
-  color: #07181f;
+  color: #eaeaea;
 }
 
 .dropdown-toggle::after {

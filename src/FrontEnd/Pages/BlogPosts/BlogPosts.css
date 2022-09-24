@@ -1,0 +1,24 @@
+.custom {
+  padding: 3px 20px;
+  background: red;
+  border: none;
+}
+
+.main-blog .card-body a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Rajdhani", sans-serif;
+}
+.main-blog .card-body p {
+  font-family: "Rajdhani", sans-serif;
+  color: rgb(21, 21, 24);
+}
+.blog-btn {
+  background: var(--secondary-color);
+  color: #fff;
+  padding: 4px 15px;
+  border-radius: 5px;
+  float: left;
+}

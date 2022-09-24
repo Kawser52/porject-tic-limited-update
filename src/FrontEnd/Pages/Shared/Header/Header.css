@@ -17,7 +17,7 @@ h6 {
 /* 
 commone css  */
 .header {
-  background-color: #f04f26;
+  background-color: var(--secondary-color);
 }
 
 .social-media a {

@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="container-fluid mt-5">
                     <div className="card">
                             <div className="row g-0">
-                            <div className="col-md-8 border-right">
+                            <div className="col-md-8">
                                 <div className="border-bottom">
                                 <div className="row p-4">
                                     <div className="col-md-3">
@@ -80,7 +80,7 @@ const Footer = () => {
                                 </div>                  
                             </div>
                             <div className="col-md-4">
-                           <div className="border-bottom"> 
+                           <div className=""> 
                             <div className="bg-danger p-3">
                                 <div className="d-flex justify-content-between align-items-center">
                                     <span className="dots"><FontAwesomeIcon icon={faPhone}></FontAwesomeIcon></span>
@@ -106,7 +106,7 @@ const Footer = () => {
                                     </div>                               
                             </div>
                             </div>
-                            <div className="border-bottom"> 
+                            <div className=""> 
                                 <div className="p-3 px-3 py-2">
                                 <div className="search d-flex align-items-center"> <input className="search_input" type="text" name="" placeholder="Enter your email"/> <a href="#" className="search_icon"><FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon></a> </div>
                            </div>

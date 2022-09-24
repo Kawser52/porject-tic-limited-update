@@ -1,6 +1,7 @@
 import { faClock, faSignal, faVideo } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import courseImage from '../../../../img/course-1.jpg';
 import courseImage2 from '../../../../img/course-2.jpg';
 import './Course.css';
@@ -54,7 +55,7 @@ const Courses = () => {
                                         <img src={courseImage} alt="" width='35' height="35" className='rounded-circle me-3'/>
                                         <span>Johon Smith</span>
                                         </div>
-                                    <p className='float-end text-center mt-2 price'>৳8500</p>
+                                    <p className='float-end text-center mt-3 price'>৳8500</p>
                                 </div>
                             </div>
                        </div>
@@ -126,7 +127,7 @@ const Courses = () => {
                         <h2 className='course-heading'>Graphics Design</h2>
                     </div>
                     <div className="col-md-6  mt-5 float-end">
-                        <button className='float-end buttons text-uppercase font-weight-bold'>View All Courses</button>
+                        <Link to="course/web"><button className='float-end buttons text-uppercase font-weight-bold'>View All Courses</button></Link>
                     </div>
                </div>
                <div className="row gy-4 mt-2">

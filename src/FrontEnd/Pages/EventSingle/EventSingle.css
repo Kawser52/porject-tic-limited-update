@@ -1,0 +1,8 @@
+.event-info {
+  background: rgb(238, 236, 236);
+  padding: 8px 10px;
+}
+
+.event-info p {
+  display: block;
+}

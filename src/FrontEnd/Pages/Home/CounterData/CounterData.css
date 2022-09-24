@@ -1,5 +1,5 @@
 .fact-item {
-  background-color: #f04f26;
+  background: linear-gradient(to right, rgb(105, 119, 224), #12058a);
   text-align: center;
   border-radius: 5px;
   color: white;
@@ -12,4 +12,12 @@
 }
 .details {
   padding: 30px;
+}
+.count {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: ;
+}
+.details p {
+  color: var(--secondary-color);
 }

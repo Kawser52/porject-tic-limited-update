@@ -1,9 +1,11 @@
 import { faCalendar, faForward, faPlay, faStar, faUser, faVideo } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import { useParams } from 'react-router-dom';
 import './CourseDetails.css';
 
 const CourseDetails = () => {
+    const {id} = useParams();
     return (
         <div className='course-details-page'>
             <hr />
